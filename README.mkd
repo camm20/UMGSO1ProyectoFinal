@@ -1,0 +1,42 @@
+# GUÍA EJECUCIÓN SISTEMA SIMULADOR DE PAGINACIÓN
+## MANEJO DE MEMORIA DINAMICA
+
+En esta guía se detallan los pasos a seguir para ejecutar el programa desarrollado en JAVA utilizando el IDE NetBeans.
+
+### Caracteristícas del programa:
+
+  * *Memoria RAM:* Lista todas las páginas de los procesos en ejecución
+  * *Memoria Virtual:* Lista todas las páginas almacenadas en Disco esperando que se liberen recursos de la Memoria RAM para poder pasar a ejecutarse en Memoria RAM
+  * *Procesos:* Lista todos los procesos que han sido creados con sus caracteristicas incluyendo su estado
+  * *Páginas:* Lista las páginas creadas para cada proceso
+  * *Tabla Páginas:* Lista las páginas con el detalle de los marcos de memoria asignados
+
+**Nota: Arch Linux ARM debe instalarse desde una PC con Linux. Estas instrucciones NO FUNCIONARÁN en ningún otro sistema operativo, especialmente Mac / Windows.**
+
+## INICIO DE EJECUCIÓN
+### PASO 1: Abrir el proyecto en NETBEANS
+
+El proyecto se llama **proyectoFinal**
+
+![ABRIR PROYECTO EN NETBEANS](./img/1.png)
+
+### PASO 2: Ejecutar el jForm llamado view.java
+
+![Ejecutar jForm view.java](./img/2.png)
+
+Para ello dar click derecho sobre **view.java** y dar click sobre **Run File**:
+
+![Vista de opciones para ejecutar view.java](./img/3.png)
+
+### PASO 3: Crear Procesos desde la interfaz grafica (GUI):
+
+![GUI SISTEMA MANEJO DE MEMORIA](./img/4.png)
+
+#### Crear Proceso:
+* Llenar el campo llamado Proceso con el nombre del proceso
+* Llenar el campo llamado Tamaño KB con el tamaño del proceso en KB.
+* Dar click sobre el botón Crear.
+
+![VISTA DE SISTEMA EN OPERACION](./img/5.png)
+
+Fin.
